@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolioku</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Verdana, sans-serif;
+        }
+
+        #header {
+            background-color: #20B2AA;
+        }
+
+        #header table {
+            width: 100%;
+        }
+
+        #header a {
+            text-decoration: none;
+            color: black;
+            font-size: 1.5em;
+        }
+
+        #header td {
+            text-align: center;
+        }
+
+        #about, #projects, #achievements {
+            padding: 20px 0;
+        }
+
+        #about {
+            background-color: black;
+            color: white;
+        }
+
+        #about img {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+        }
+
+        #projects {
+            background-color: #c2c0c3;
+            color: black;
+        }
+
+        #projects font {
+            font-family: Times New Roman, serif;
+        }
+
+        #achievements {
+            background-color: black;
+            color: white;
+        }
+
+        #footer, #footer2 {
+            background-color: #20B2AA;
+        }
+
+        #footer2 {
+            background-color: black;
+            color: #20B2AA;
+        }
+
+        @media (max-width: 768px) {
+            #header table {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            #header td {
+                width: 100%;
+                text-align: center;
+                padding: 10px 0;
+            }
+
+            #about, #projects, #achievements {
+                padding: 10px;
+            }
+
+            #about table, #projects table, #achievements table {
+                width: 100%;
+            }
+
+            #about td, #projects td, #achievements td {
+                display: block;
+                width: 100%;
+                text-align: center;
+            }
+
+            #about img {
+                max-width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!--Header(start)-->
+    <table id="header" border="0" width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td>
+                <table border="0" cellpadding="15" cellspacing="0" width="90%" align="center">
+                    <tr>
+                        <td>
+                            <a href="#about">Tentang Saya</a>
+                        </td>
+                        <td>|</td>
+                        <td>
+                            <a href="#projects">Proyek</a>
+                        </td>
+                        <td>|</td>
+                        <td>
+                            <a href="#achievements">Pendidikan</a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <!--Header(end)-->
+
+    <!--About(start)-->
+    <table id="about" border="0" width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td>
+                <table border="0" cellpadding="15" cellspacing="0" width="80%" align="center">
+                    <tr>
+                        <td height="180" align="center" valign="middle" colspan="2">
+                            <font size="7" color="#20B2AA">Tentang Saya</font>
+                            <hr color="#20B2AA" width="90">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="40%">
+                            <img src="images/me.jpeg" alt="Gambar saya">
+                        </td>
+                        <td width="60%">
+                            <font size="4">
+                                Terima kasih atas minat Anda, berikut adalah cerita singkat tentang saya dan situs web ini.
+                                <hr color="black">
+                                Saya lulusan teknik informatika, selama studi saya mendalami berbagai aspek teknologi informasi termasuk pengembangan perangkat lunak, analisis data, kecerdasan buatan, dan mampu mengoperasikan Microsoft Office, khususnya Microsoft Word dan Excel. Di samping kurikulum universitas, saya secara mandiri mengejar studi independen berbasis online di kampus merdeka. Saya telah melakukan proyek-proyek kecil untuk mengasah keterampilan saya dalam pemrosesan data, pemodelan prediktif, dan analisis statistik, di mana saya belajar dari para ahli dan berkolaborasi dengan teman-teman universitas yang berbeda.
+                            </font>
+                        </td>
+                    </tr>
+                </table>
+                <hr color="black">
+            </td>
+        </tr>
+    </table>
+    <!--About(end)-->
+
+    <!--Projects(start)-->
+    <table id="projects" border="0" width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td>
+                <table border="0" cellpadding="15" cellspacing="0" width="80%" align="center">
+                    <tr>
+                        <td height="180" align="center" valign="middle" colspan="2">
+                            <font size="7" color="black">Proyek</font>
+                            <hr color="black" width="90">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="10">
+                            <font size="5">
+                                Web Rekomendasi Skincare
+                                <a href="https://projek-enjel.streamlit.app/" style="text-decoration:none"> ➲ </a>
+                                <hr color="#c2c0c3">
+                            </font>
+                        </td>
+                        <td height="10">
+                            <font size="5">
+                                Web CV saya
+                                <a href="https://enjelta.github.io/CV-Enjel/" style="text-decoration:none"> ➲ </a>
+                                <hr color="#c2c0c3">
+                            </font>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <!--Projects(end)-->
+
+    <!--Achievement(start)-->
+    <table id="achievements" border="0" width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td>
+                <table border="0" cellpadding="15" cellspacing="0" width="80%" align="center">
+                    <tr>
+                        <td height="180" align="center" valign="middle">
+                            <font size="7" color="#20B2AA">Pendidikan</font>
+                            <hr color="#20B2AA" width="100">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <font size="4">
+                                <ul>
+                                    <li>
+                                        <b>Universitas Efarina Pematangsiantar.</b>
+                                        <ul>
+                                            <li>2019 - 2023.</li>
+                                        </ul>
+                                    </li><br>
+                                    <li>
+                                        <b>Bootcamp Bangkit Akademi (Pendidikan Non Formal).</b>
+                                        <ul>
+                                            <li>Februari - Juli 2022.</li>
+                                        </ul>
+                                    </li><br>
+                                    <li>
+                                        <b>Bootcamp Orbit Future Akademi (Pendidikan Non formal).</b>
+                                        <ul>
+                                            <li>Agustus-Desember 2022</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </font>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <!--Achievement(end)-->
+
+    <!--Footer1(start)-->
+    <table id="footer" border="0" width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td>
+                <table border="0" cellpadding="15" cellspacing="0" width="90%" align="center">
+                    <tr>
+                        <td width="13%" valign="top">
+                            <b>LinkedIn</b>
+                            <a href="https://www.linkedin.com/in/enjel-hutauruk-4b885b223/" style="text-decoration:none"> ➲ </a>
+                        </td>
+                        <td>|</td>
+                        <td width="13%" valign="top">
+                            <b>GitHub</b>
+                            <a href="https://github.com/enjelta" style="text-decoration:none"> ➲ </a>
+                        </td>
+                        <td>|</td>
+                        <td width="13%" valign="top">
+                            <b>Instagram</b>
+                            <a href="https://www.instagram.com/enjelyxing?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" style="text-decoration:none"> ➲ </a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <!--Footer1(end)-->
+
+    <!--Footer2(start)-->
+    <table id="footer2" border="0" width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td>
+                <table border="0" cellpadding="15" cellspacing="0" width="90%" align="center">
+                    <tr>
+                        <td width="80%" valign="top">
+                            <font size="5">©Copyright 2020 by Enjel.</font>
+                        </td>
+                        <td width="10%">
+                            <a href="#header" style="text-decoration:none">
+                                <img src="images/up.png" alt="Back to top" style="width: 50px; height:50px;">
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <!--Footer2(end)-->
+</body>
+
+</html>
